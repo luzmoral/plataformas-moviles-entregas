@@ -172,6 +172,17 @@
                         boton.removeAttribute("style");
                     }
                     break;
+		case 'color':
+                    funcionColor();
+                    if(!boton.hasAttribute("style"))
+                    {
+                        boton.setAttribute("style", "background-color:#AF7AC5;")
+
+                    }
+                    else
+                    {
+                        boton.removeAttribute("style");
+                    }
             }
         }
         function CambiarTexto(Texto, tamaño)
